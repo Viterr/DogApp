@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&display=swap');
+header{
+    font-weight: 700;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+
+}
+.logo{
+    font-size: 1.5em;
+    font-family: 'Grand Hotel', cursive;  
+    padding: 0.5em;
+    color: rebeccapurple;
+}
+.nav-area{
+    list-style: none;
+    
+}
+.shadow{
+    box-shadow: 0 4px 2px -2px gray;
+}
+header a{
+    text-decoration: none;
+    color: #272727;  
+    padding: 1.5em;
+    border-bottom: 3px solid transparent;
+}
+header a:hover{
+    color: rebeccapurple;
+    border-bottom: 3px solid rebeccapurple;
+}
+
+.nav-area li{
+    display: inline-block;
+    padding: 0 .9em;
+    cursor: pointer;
+    
+}
+.nav-area a{
+    padding:  1em;
+    
+}

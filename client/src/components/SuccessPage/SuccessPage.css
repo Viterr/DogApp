@@ -1,0 +1,51 @@
+.success-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 150px;
+    text-align: center;
+    background: white;
+    color: #155724;
+    
+}
+.success-container .content{
+    background: white;
+    margin-top: 1em;
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+.success-container h2{
+    
+    padding: 1em 2em;
+    background: #d4edda;
+    border: 1px solid #c3e6cb;
+    
+}
+.success-button{
+    list-style: none;
+    padding: 2em;
+}
+
+.success-button li{
+    display: inline-block;
+    padding: 0 .9em;
+    cursor: pointer;
+    
+}
+.success-button a{
+    background: rebeccapurple;
+    text-decoration: none;
+    color: #fff;  
+    border-radius: 0.3em;
+    border-bottom: 3px solid transparent;
+    padding:  0.5em;
+    border: 1px solid transparent;
+}
+
+.success-button a:hover{
+    background: #fff;
+    
+    color: rebeccapurple;  
+    border: 1px solid rebeccapurple;
+    
+}

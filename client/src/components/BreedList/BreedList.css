@@ -1,0 +1,55 @@
+.form-finder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+  
+.input-finder,.select-finder{
+    outline: none;
+    border: 1px solid rebeccapurple;
+    padding: 0.2em ;
+    font-family: inherit;
+    border-radius: 0.2em;
+}
+.input-finder{
+    font-size: 1.2rem;
+    width: 15em;
+    margin-left: -0.1em;
+}
+  
+.select-finder{
+    appearance: none;
+    margin-right: 0.2em;
+    width: 10em;
+}
+.input-finder:hover{
+    border-color:rgb(179, 115, 243);
+    box-shadow: 0 0 5px 0 rgb(179, 115, 243);
+}
+.card-row {
+    display: grid;
+    grid-template-columns: repeat(4, 21%);
+    justify-content: space-between;
+}
+.button-finder{
+    outline: none;
+    border: none;
+    margin-top: 1em;
+    padding: 0.6em 1em;
+    
+    background: rebeccapurple;
+    color: #fff;
+    border-radius: 0.3em;
+    cursor: pointer;
+}
+
+.content-noresults{
+    
+    width: 100%;
+    padding-top: 1em;
+    display: inline-flex;
+    justify-content: center;
+    background-color: #fff;
+    color: tomato;
+}

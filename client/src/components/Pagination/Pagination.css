@@ -1,0 +1,24 @@
+.section-pagination{
+    margin-bottom: 1em;
+    height: auto;
+}
+.pagination{
+    min-height: 2em;
+    
+}
+.pagination li {
+    display: inline;
+
+}
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid hsl(0, 0%, 36%);
+}
+ul.pagination li a.active {
+    background-color: hsla(271, 67%, 43%, 0.623);
+    color: white;
+}
+ul.pagination li a:hover:not(.active) {background-color: white; color:rebeccapurple;}

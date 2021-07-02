@@ -1,0 +1,44 @@
+.detail-container {
+    background: #fff;
+    
+}
+.detail-container h2{
+    
+    text-align: center;
+    font-size: 3em;
+}
+.detail-content{
+    border-top: 1px solid #c8c8c8c8;
+    display: flex;
+    min-height: 60vh;
+    padding: 0.5em 2em;
+    justify-content: space-around;
+}
+
+.detail-content div{
+    width: 49%;
+}
+.detail-content-left{
+    
+    line-height: 1.6em;
+    padding-top: 2em;
+}
+.detail-content-left p{
+    color: dodgerblue;
+    font-size: 1.5rem;
+    
+    
+}
+.detail-content-right {
+   max-width: 100%;
+   max-height: 100%;
+   background-image: url('https://cdn2.thedogapi.com/images/BJa4kxc4X.jpg');
+   background-size: cover;
+   background-position: center center;
+}
+.span-subtitle{
+    font-size: 1.5rem;
+}
+.span-text{
+    color: #757575;
+}
